@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'JosefinSans-Regular';
+    src: url('../font/JosefinSans-Regular.ttf');
+
+} 
+body{
+    /* width: 100%; height: 100vh; */
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url('../images/contact.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: 'JosefinSans-Regular';        
+}
+
+.bg-dark{
+    background: rgba(0,0,0,0.2) !important;
+}
+
+.logo-1{
+    color: pink;
+    width: 25%; 
+    text-align: center;
+    margin-left: 70px;    
+}
+
+.home{
+    color: pink !important;
+    text-decoration: underline;
+    font-size: 21px;
+}
+.text-white{
+    font-size: 21px;
+}
+
+a h2{
+    font-style: italic !important;
+    font-size: 30px;
+}
+
+.space{
+    font-family: 'Ubuntu-Regular';
+    margin-right: 60px;
+    color: white;
+    font-size: 18px;
+}
+.space:hover{
+    color: rgb(241, 210, 73) !important;
+
+}
+.text-white{
+    font-family: 'Ubuntu-Regular';
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.contact{
+    color: gold;
+    font-family: 'Lora-Regular';
+    font-size: 4em;
+    text-decoration: underline;
+    font-weight: 500;
+    margin:  20px 30%;
+    padding: 40px 0px 25px 50px;
+}
+.story{
+    background: rgba(0,0,0,0.2) !important;
+    color: #ffffff;
+    line-height: 1.5;
+    text-align: justify !important;
+    width: 42%;
+    margin: 3% 0px 0px 28%;
+    box-shadow: 2px 3px 10px 10px rgba(241, 73, 73, 0.589);
+
+}
+.story::first-letter{
+    font-size: 30px !important;
+}
+.message{
+    margin: 5% 0px 17% 28%;
+    width: 42%;
+    padding-bottom: 5%;
+}
+.form-group:hover{
+    color: gold !important;
+}
+input:hover{
+    color: red !important;
+}
+.btn-warning:hover{
+    background: linear-gradient(to right, rgb(235, 41, 225),
+         rgb(0, 0, 0) 70%) !important;
+    color: #ffffff !important;
+}
+
+.cell{
+    font-family: 'Lora-Regular';
+    color: #ffffff;
+    word-spacing: 5px !important;
+    font-weight: bold;
+    line-height: 8px;
+}
+.social-media{
+    font-size: 23px;
+}
+.social-media a:hover{
+    color: #5cfc77;
+}
+#phone:hover{
+    color: #5cfc77;
+}
+#email:hover{
+    color: #5cfc77;
+}
+
+
